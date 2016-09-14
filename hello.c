@@ -6,10 +6,10 @@ int main()
         float cel, fahre = 0;
         int lower = 0;
         int upper = 300;
-        printf("enter the temperature in fahrenheit\n");
+      //  printf("enter the temperature in fahrenheit\n");
         scanf ("%f", &fahre);
         printf("the temperature conversion table is\n ");
-        printf("fahrenheit cel\n ");
+     //   printf("fahrenheit cel\n ");
         if ( fahre <= upper)
         {
                 cel = (5.0/9.0)*(fahre - 32);
