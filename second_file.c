@@ -8,6 +8,12 @@ int add (int a , int b)
 	return sum;
 
 }
+int sub(int a, int b)
+{
+	int value = a -b;
+	return 0;
+}
+
 int main ()
 {
 	int val = 0;
